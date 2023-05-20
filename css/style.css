@@ -27,4 +27,147 @@
   font-family: "Barlow";
   src: url("../fonts/Barlow-SemiBold.otf");
   font-weight: 600;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 1200px;
+  background: #EFF6FF;
+}
+.wrapper__window {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 91%;
+  height: 83%;
+  background: #FFFFFF;
+}
+.wrapper__window__information {
+  background: red;
+  height: 100%;
+  width: 50%;
+  padding-left: 5%;
+  padding-top: 225px;
+}
+.wrapper__window__information__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 75px;
+  width: 88%;
+  margin-bottom: 52px;
+  background: white;
+}
+.wrapper__window__information__header__head {
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 30px;
+  color: #2A4A5C;
+}
+.wrapper__window__information__header__underhead {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 2px;
+  color: #7B8A92;
+}
+.wrapper__window__information__social-media {
+  display: flex;
+  justify-content: space-between;
+  height: 43px;
+  width: 88%;
+  margin-bottom: 49px;
+  background: white;
+}
+.wrapper__window__information__social-media div {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 46%;
+}
+.wrapper__window__information__social-media div img {
+  height: 45%;
+  margin-left: 10px;
+  margin-right: 24px;
+}
+.wrapper__window__information__social-media div p {
+  font-family: "Barlow";
+  font-weight: 200;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.wrapper__window__information__social-media div:first-child {
+  background: #255A9B;
+}
+.wrapper__window__information__social-media div:last-child {
+  background: #0076B6;
+}
+.wrapper__window__information__or {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 19px;
+  width: 88%;
+  margin-bottom: 43px;
+  background: white;
+}
+.wrapper__window__information__or div {
+  height: 1px;
+  width: 22%;
+  background: #AFAFAF;
+}
+.wrapper__window__information__or p {
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 11px;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  color: #2A4A5C;
+}
+.wrapper__window__information__register {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 57px;
+  width: 88%;
+  margin-bottom: 62px;
+  background: white;
+}
+.wrapper__window__information__register input {
+  height: 93%;
+  width: 46%;
+  border: 1.5px solid #EEEEEE;
+  border-radius: 3px;
+}
+.wrapper__window__information__text {
+  height: 50px;
+  width: 46%;
+  margin-bottom: 46px;
+  background: yellow;
+}
+.wrapper__window__information__choice {
+  height: 25px;
+  width: 80%;
+  margin-bottom: 20px;
+  background: blue;
+}
+.wrapper__window__information__note {
+  height: 72px;
+  width: 43%;
+  margin-bottom: 46px;
+  background: yellow;
+}
+.wrapper__window__information__agreement {
+  height: 25px;
+  width: 73%;
+  margin-bottom: 54px;
+  background: blue;
+}
+.wrapper__window__information__create-account {
+  height: 42px;
+  width: 41%;
+  margin-bottom: 46px;
+  background: yellow;
 }/*# sourceMappingURL=style.css.map */
